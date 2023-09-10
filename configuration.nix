@@ -271,7 +271,15 @@
 	system.stateVersion = "23.05"; # Did you read the comment?
 
 	# Configuring Home Manager & zsh
-	environment.shells = with pkgs; [ zsh ];
+	environment = {
+		shells = with pkgs; [ zsh ];
+		variables = {
+			EDITOR = "micro";
+			SYSTEMD_EDITOR = "micro";
+			VISUAL = "micro";
+		};
+	};
+	
 	users.users.jj.shell = pkgs.zsh;
 	programs.zsh.enable = true;
 
