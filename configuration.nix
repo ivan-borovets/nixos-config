@@ -308,6 +308,9 @@
 			enable = true;
 			userName  = "jj";
 			userEmail = "jj@jj.jj";
+			extraConfig = {
+				core.editor = "micro";
+			};
 		};
 		programs.zsh = {
 			enable = true;
