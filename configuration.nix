@@ -203,6 +203,7 @@
    		libsForQt5.kcalc					# Scientific calculator
    		libreoffice                         # More word processing
    		maestral-gui						# GUI front-end for maestral (an open-source Dropbox client) for Linux
+		microsoft-edge						# The web browser from Microsoft
    		obsidian							# A powerful knowledge base that works on top of a local folder of plain text Markdown files
    		peek                                # Easy gif creator
    		pinta                               # Paint.NET for Linux
