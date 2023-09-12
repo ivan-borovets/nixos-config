@@ -229,6 +229,7 @@
 			pandas							# Powerful data structures for data analysis, time series, and statistics
 			scipy							# Fundamental algorithms for scientific computing in Python
 			seaborn							# Statistical data visualization
+			sympy							# A Python library for symbolic mathematics
 			]))
 #		R									# Free software environment for statistical computing and graphics
 		R-with-my-packages					# Free software environment for statistical computing and graphics
