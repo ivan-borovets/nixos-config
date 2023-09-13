@@ -211,9 +211,11 @@
    		texlive.combined.scheme-full		# TeX Live environment for scheme-full
    		vlc									# Cross-platform media player and streaming server
    		qalculate-qt						# The ultimate desktop calculator
+#  		quarto								# Open-source scientific and technical publishing system built on Pandoc #doesn't work alone
    		
 		### Programming languages ###
 		jdk19_headless						# The open-source Java Development Kit
+		nodejs								# Event-driven I/O framework for the V8 JavaScript engine
 		maven								# Build automation tool (used primarily for Java projects)
 		(python311.withPackages(ps: with ps;# A high-level dynamically-typed programming language
 			[
@@ -223,13 +225,20 @@
 			virtualenv						# Virtual Python Environment builder
 
 			# My own choice
+			ipywidgets						# IPython HTML widgets for Jupyter
 			jupyterlab						# Jupyter lab environment notebook server extension
+#			jupyterlab-widgets				# Jupyter Widgets JupyterLab Extension
+#			jupyter-nbextensions-configurator # 
 			matplotlib						# Python plotting package
+#			numba-scipy						# Extends Numba to make it aware of SciPy # Current version doesn't work with py311
+#			numba							# Compiling Python code using LLVM # Current version doesn't work with py311
 			numpy							# Fundamental package for array computing in Python
+			openpyxl						# Python library to read/write Excel 2010 xlsx/xlsm files
 			pandas							# Powerful data structures for data analysis, time series, and statistics
 			scipy							# Fundamental algorithms for scientific computing in Python
 			seaborn							# Statistical data visualization
 			sympy							# A Python library for symbolic mathematics
+			yfinance						# Module to doiwnload Yahoo! Finance market data
 			]))
 #		R									# Free software environment for statistical computing and graphics
 		R-with-my-packages					# Free software environment for statistical computing and graphics
